@@ -93,8 +93,8 @@ fun SmartStudyTheme(
             if (darkTheme) dynamicDarkColorScheme(context) else dynamicLightColorScheme(context)
         }
 
-        darkTheme -> darkColorScheme()
-        else -> lightColorScheme()
+        darkTheme -> darkColors
+        else -> lightColors
     }
     val view = LocalView.current
     if (!view.isInEditMode) {
