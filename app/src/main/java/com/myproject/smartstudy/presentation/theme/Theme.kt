@@ -1,4 +1,4 @@
-package com.myproject.smartstudy.ui.theme
+package com.myproject.smartstudy.presentation.theme
 
 import android.app.Activity
 import android.os.Build
